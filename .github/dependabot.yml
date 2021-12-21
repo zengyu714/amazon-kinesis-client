@@ -1,7 +1,16 @@
 version: 2
 updates:
+
+# branch - master
 - package-ecosystem: "maven"
   directory: "/"
+  target-branch: "master"
   schedule: 
     interval: "daily"
-  # Add assignees, reviewers
+
+# branch - v1.x
+- package-ecosystem: "maven"
+  directory: "/"
+  target-branch: "v1.x"
+  schedule:
+    interval: "daily"
