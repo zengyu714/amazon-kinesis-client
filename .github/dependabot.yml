@@ -6,11 +6,12 @@ updates:
   directory: "/"
   target-branch: "master"
   schedule: 
-    interval: "daily"
+    interval: "weekly"
 
 # branch - v1.x
 - package-ecosystem: "maven"
   directory: "/"
   target-branch: "v1.x"
   schedule:
-    interval: "daily"
+    interval: "weekly"
+
